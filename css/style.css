@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Cormorant Garamond", serif;
 }
 
 html, body {
@@ -18,11 +19,16 @@ header {
     background-color: #202D5A;
     z-index: -2;
     position: relative;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .img-background {
     width: 50%;
-    height: 100vh; 
+    height: 20vh; 
+    z-index: -1;
+    position: relative;
 }
 
 .img-background img {
@@ -30,13 +36,55 @@ header {
     position: relative;
     left: -700px;
     top: -800px;
-    animation: rotate 40s infinite ;
+    animation: rotate 40s infinite ease;
 }
 
 .logo {
     width: 100%;
     display: flex;
     justify-content: end;
+}
+
+.logo img {
+    margin-top: 33px;
+    margin-right: 136px;
+}
+
+.title-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    color: #D8B8A8;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 48px;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 36px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+button {
+    background-color: #D8B8A8;
+    color: #202D5A;
+    border: none;
+    outline: none;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 36px;
+    padding: 16px 48px;
 }
 
 /* анимация вращения узорчатого круга */
