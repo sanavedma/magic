@@ -111,6 +111,8 @@ main {
     margin-top: 50px;
 }
 
+/* блок о компании */
+
 .about {
     display: flex;
     flex-direction: column;
@@ -135,6 +137,24 @@ main {
 
 .separator {
     margin: 50px 0;
+}
+
+/* блок галерея */
+
+.galery {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.galery-inner {
+    display: flex;
+    width: 85%;
+    justify-content: center;
+    column-gap: 50px;
+    row-gap: 25px;
+    flex-wrap: wrap;
 }
 
 /* анимация вращения узорчатого круга */
