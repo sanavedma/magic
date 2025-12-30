@@ -157,6 +157,35 @@ main {
     flex-wrap: wrap;
 }
 
+/* блок преимуществ */
+
+.advantages {
+    background-color: #202D5A;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #D8B8A8;
+    gap: 50px;
+    padding: 50px 0;
+}
+
+.advantages-inner {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.advantages-element {
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+    width: 25%;
+}
+
 /* анимация вращения узорчатого круга */
 
 @keyframes rotate {
